@@ -1,6 +1,6 @@
 appId: com.electron.manta
-copyright: Hung Q. Le
-productName: Manta
+
+productName: Invoice
 publish:
   - provider: github
     owner: hql287
