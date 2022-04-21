@@ -2,7 +2,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
-// Custom Components
+import { handleSubmitForm} from './server';
 import { TR, TD } from '../shared/Table';
 import Button from '../shared/Button';
 
@@ -32,6 +32,9 @@ class Contact extends PureComponent {
         <TD>{contact.email}</TD>
         <TD>{contact.phone}</TD>
         <TD actions>
+          <Button link primary onClick={handleSubmitForm}>
+            <i className="ion-plus-round" />
+          </Button>  
           <Button link primary onClick={this.newInvoice}>
             <i className="ion-plus-round" />
           </Button>
