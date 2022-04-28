@@ -1,10 +1,9 @@
-// Libraries
+
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { isEqual } from 'lodash';
-// Custom Components
+
 import { Section, Header } from '../shared/Section';
-// Animation
 import _withFadeInAnimation from '../shared/hoc/_withFadeInAnimation';
 // Styles
 import styled from 'styled-components';
